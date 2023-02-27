@@ -1,0 +1,11 @@
+.configuration {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: dimgray;
+}
