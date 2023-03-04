@@ -1,6 +1,17 @@
 .commandPanel {
-    height: 100%;
+    box-sizing: border-box;
     width: 100%;
-    position: relative;
-    padding: 12px;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    padding: 1em;
+    margin-bottom: 2em;
+    position: fixed;
+    top: 0;
+}
+
+.icon {
+    margin: 5px;
+    padding: 5px;
 }

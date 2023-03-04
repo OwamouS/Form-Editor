@@ -1,6 +1,7 @@
 .componentsMenuPanel {
     height: 100%;
-    width: 100%;
+    width: 350px;
     position: relative;
     padding: 12px;
+    margin-top: 40px;
 }
