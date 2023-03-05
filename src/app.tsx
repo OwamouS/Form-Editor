@@ -1,8 +1,15 @@
 import React from 'react';
-import { FormEditor } from './components/form-editor';
-
+import { LeftPanel, MidPanel, RightPanel, HeaderPanel } from './components';
+import styles from './style.module.css';
 export const App: React.FC = () => {
-  return <FormEditor />;
+  return (
+    <div className={styles.app}>
+      <HeaderPanel />
+      <LeftPanel />
+      <MidPanel />
+      <RightPanel />
+    </div>
+  );
 };
 
 App.displayName = 'App';

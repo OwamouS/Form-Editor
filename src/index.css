@@ -1,5 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+#root{
+  height: inherit;
 }
 
 a {
