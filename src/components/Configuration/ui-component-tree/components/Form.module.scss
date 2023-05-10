@@ -1,0 +1,15 @@
+.form {
+  box-sizing: border-box;
+  position: relative;
+  padding: 26px;
+
+  background-color: #fff;
+  border-radius: 8px;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+}

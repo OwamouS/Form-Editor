@@ -1,12 +1,44 @@
 [
   {
-      "code": "Parameter1",
-      "name": "Параметр 1",
-      "type": "number"
+    "code": "element",
+    "name": "Параметр 1/(Number)",
+    "type": "NUMBER",
+    "id": 0
   },
   {
-      "code": "Parameter2",
-      "name": "Параметр 2",
-      "type": "string"
+    "code": "element",
+    "name": "Параметр 2/(Text)",
+    "type": "TEXT",
+    "id": 1
+  },
+  {
+    "code": "element",
+    "name": "Параметр 3/(Date)",
+    "type": "DATE",
+    "id": 2
+  },
+  {
+    "code": "element",
+    "name": "Параметр 4/(DateTime)",
+    "type": "DATETIME",
+    "id": 3
+  },
+  {
+    "code": "element",
+    "name": "Параметр 5/(Boolean)",
+    "type": "BOOLEAN",
+    "id": 4
+  },
+  {
+    "code": "element",
+    "name": "Параметр 6/(Ref)",
+    "type": "REF",
+    "id": 5
+  },
+  {
+    "code": "element",
+    "name": "Параметр 7/(File)",
+    "type": "FILE",
+    "id": 6
   }
 ]

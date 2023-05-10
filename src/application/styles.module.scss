@@ -1,0 +1,32 @@
+.app {
+  flex: 1;
+  display: flex;
+  max-height: calc(100vh - 50px);
+  overflow: hidden;
+}
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.configuration {
+  flex: 1;
+  align-items: unset;
+
+  height: 100%;
+}
+
+.settings,
+.panel {
+  width: 350px;
+}
+
+.panel,
+.configuration,
+.settings {
+  row-gap: 8px;
+  min-height: calc(100vh - 50px);
+  max-height: calc(100vh - 50px);
+}
